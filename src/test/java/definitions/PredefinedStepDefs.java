@@ -84,7 +84,6 @@ public class PredefinedStepDefs {
     public void elementWithXpathShouldBeSelected(String xpath) {
         assertThat(getDriver().findElement(By.xpath(xpath)).isSelected()).isTrue();
     }
-
     @Then("^element with xpath \"([^\"]*)\" should not be selected$")
     public void elementWithXpathShouldNotBeSelected(String xpath) {
         assertThat(getDriver().findElement(By.xpath(xpath)).isSelected()).isFalse();
