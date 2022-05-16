@@ -1,6 +1,5 @@
 #Exercize for Webdriver experience
 # Author: Anna Verkhovskaya
-  #this comment is an example for https://github.com/annaverpcs/ACA411_ask_java_cucumber_webdrivergit remote 0
 
   @webdriver
   Feature: Exercize for Webdriver experience
