@@ -1,5 +1,6 @@
 #Exercize for Webdriver experience
 # Author: Anna Verkhovskaya
+  #this comment is an example for https://github.com/annaverpcs/ACA411_ask_java_cucumber_webdriver
 
   @webdriver
   Feature: Exercize for Webdriver experience
@@ -24,7 +25,7 @@
 
 @webdriver4
 Scenario: Full name validation
-  When I click on Name field
+  When Click on Name field
   Then I open dialog window
   #Then I type "A" as First Name
   #Then I type "S" as Middle Name

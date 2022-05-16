@@ -84,8 +84,8 @@ public class WebDriverStepDefs {
         assertThat(actualDate.equals(date));
     }
 
-    @When("I click on Name field")
-    public void iClickOnNameField() {
+    @When("Click on Name field")
+    public void clickOnNameField() {
         getDriver().findElement(By.xpath("//input[@id='name']")).click();
     }
 
