@@ -1,7 +1,7 @@
 # Exercize for XPath
 # Author: Anna Verkhovskaya
 
-@predefined
+@predefined @regression
 Feature: Smoke steps
 # scenario for with Google
   @predefined1

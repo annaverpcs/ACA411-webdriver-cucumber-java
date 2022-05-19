@@ -1,7 +1,7 @@
 #Exercize for Webdriver experience
 # Author: Anna Verkhovskaya
 
-  @webdriver
+  @webdriver @regression
   Feature: Exercize for Webdriver experience
     Background:
       Given I navigate "quote"

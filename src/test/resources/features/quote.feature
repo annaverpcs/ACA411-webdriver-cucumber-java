@@ -1,7 +1,7 @@
 #Exercize for Quote application
 # Epic : https://jira.portnov.com/browse/ACA-655
 # Author: Anna Verkhovskaya
-  @quote
+  @quote @regression
   Feature: Quote Page Scenarios
     Background:
       Given I open url "https://skryabin.com/market/quote.html"
