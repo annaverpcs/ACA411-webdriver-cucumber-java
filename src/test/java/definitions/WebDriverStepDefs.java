@@ -78,7 +78,7 @@ public class WebDriverStepDefs {
     public void iValidateTheDatePickerEnteredTheDate(String date) {
         getDriver().findElement(By.xpath("//input[@id='dateOfBirth']")).click();
         getDriver().findElement(By.xpath("//select[@class='ui-datepicker-month']/option[@value='0']")).click();
-        getDriver().findElement(By.xpath("//select[@class='ui-datepicker-year']/option[@value='1985']")).click();
+        //getDriver().findElement(By.xpath("//select[@class='ui-datepicker-year']/option[@value='1985']")).click();
         getDriver().findElement(By.xpath("//td[@data-handler='selectDay']/a[text()='20']")).click();
         String actualDate = getDriver().findElement(By.xpath("//input[@id='dateOfBirth']")).getAttribute("value");
         assertThat(actualDate.equals(date));

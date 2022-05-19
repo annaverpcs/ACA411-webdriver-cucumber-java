@@ -1,4 +1,4 @@
-@java
+@java @regression
 Feature: Java Practice
 
   @java1
